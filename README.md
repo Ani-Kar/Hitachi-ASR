@@ -13,7 +13,7 @@ The goals of the this Project are as follows:
 
 ### Pre-Processing using Speech Yolo
 
-**Data**
+**Data:**
 - The data needed to train in the model is a labelled 1 sec audio clip of a keyword.
 - Each Keyword Directory has multiple .wav and .wrd files representing audio clips and
 a text file with [start end keyword] tuple as in the files.
@@ -30,16 +30,17 @@ which are almost equal to 1 using numpy library of python.
 - Conversion into a standard 160x100 NumPy array takes place which is used as data for our 
 model after normalization.
 
-**Model**
+**Model:**
 - The CNN multi-layer model has 16 Convoluted Layers with 2 Fully Connected layers with 5 Pooling layers, 
 each Convoluted Layer Normalises and applies ReLU before going to the next layer.
 - The model is based on dividing the last connected into 3 parts c, b, k which represent container, box, 
 and keyword and can be set as per the users after which a probability of keyword existing in each box is 
 calculated using the loss function and greatest probability above a threshold is returned.
 
-**Instructions**
-- Download the model from the link and run<br />
-`hello`
+**Instructions:**
+- Download the model from the link(https://drive.google.com/file/d/1mkOn61zMzHi9S4XNhfDxnNSuV57OnoyN/view) and run<br />
+` python test_yolo.py    --test_data [path_to_test_data]
+                         --model [path_to_speechyolo_model]`
 
 ### Post-Processing using Soundex
 

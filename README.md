@@ -41,7 +41,7 @@ calculated using the loss function and greatest probability above a threshold is
 - Download the model from the [link](https://drive.google.com/file/d/1mkOn61zMzHi9S4XNhfDxnNSuV57OnoyN/view) and run<br /><br />
 ```
 python test_yolo.py    --test_data [path_to_test_data]
-                         --model [path_to_speechyolo_model] 
+                       --model [path_to_speechyolo_model] 
 ```
 
 ### Post-Processing using Soundex

@@ -67,7 +67,7 @@ Recognition of Number Sequences in Spoken Utterances.](https://citeseerx.ist.psu
 
 - [Speech YOLO paper](https://arxiv.org/pdf/1904.07704.pdf)
 
-- [Soundex] (https://github.com/libindic/soundex)
+- [Soundex](https://github.com/libindic/soundex)
 
 
 

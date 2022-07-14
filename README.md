@@ -7,8 +7,7 @@
 ## About
 The goals of the this Project are as follows:
 - "Identify numeric keywords in continuous speech"
-- "Locate keywords in timeframes or in post-processed transcripts"<br />
-Both these tasks are tackled in the following 2 methods.
+- "Locate keywords in timeframes or in post-processed transcripts"
 
 ## Methods
 

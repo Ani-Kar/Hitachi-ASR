@@ -51,7 +51,8 @@ python test_yolo.py    --test_data [path_to_test_data]
 in 4 languages: English, Hindi, Bengali and Tamil
 - A few examples can be found in the data folder of the fuzzy matching algorithm. The data can be varied by
 changing the first column of the excel files and run the run.py file
-
+- We combine the bounding boxes if the keywords(numbers in our case) are consecutive to enable the detection of
+continuous number sequences
 
 **Algorithm**<br />
 - The algorithm is based on 2 parameters, the bigram match and the soundex score.
@@ -65,6 +66,8 @@ Soundex is a phonetic matching alogrithm which matches similar sounding words
 Recognition of Number Sequences in Spoken Utterances.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.367.7514&rep=rep1&type=pdf)
 
 - [Speech YOLO paper](https://arxiv.org/pdf/1904.07704.pdf)
+
+- [Soundex] (https://github.com/libindic/soundex)
 
 
 

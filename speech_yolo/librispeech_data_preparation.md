@@ -1,4 +1,4 @@
-## LibriSpeech Data Preparation
+## Data Preparation
 
 
 The librispeech dataset can be found [here](http://www.openslr.org/12). The data is already divided to train, validation and test sets. We used both the `clean` and `other` segments for training, but tested them separately. 

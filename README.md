@@ -4,15 +4,15 @@
 - Aniket Kumar
 - Agnibha Sinha
 
-##About
+## About
 The goals of the this Project are as follows:
 - "Identify numeric keywords in continuous speech"
 - "Locate keywords in timeframes or in post-processed transcripts"
 Both these tasks are tackled in the following 2 methods.
 
-##Methods
+## Methods
 
-###Pre-Processing using Speech Yolo
+### Pre-Processing using Speech Yolo
 
 **Data**
 - The data needed to train in the model is a labelled 1 sec audio clip of a keyword.
@@ -38,7 +38,7 @@ each Convoluted Layer Normalises and applies ReLU before going to the next layer
 and keyword and can be set as per the users after which a probability of keyword existing in each box is 
 calculated using the loss function and greatest probability above a threshold is returned.
 
-###Post-Processing using Soundex
+### Post-Processing using Soundex
 
 **Data**
 -first_point

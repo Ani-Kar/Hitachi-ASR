@@ -51,13 +51,15 @@ python test_yolo.py    --test_data [path_to_test_data]
 in 4 languages: English, Hindi, Bengali and Tamil
 - A few examples can be found in the data folder of the fuzzy matching algorithm. The data can be varied by
 changing the first column of the excel files and run the run.py file
-- We combine the bounding boxes if the keywords(numbers in our case) are consecutive to enable the detection of
-continuous number sequences
+
 
 **Algorithm**<br />
 - The algorithm is based on 2 parameters, the bigram match and the soundex score.
 Soundex is a phonetic matching alogrithm which matches similar sounding words
-- Using soundex also enables us to match words across languages. Combining the 2 parameters we can find an approximate match for keywords
+- Using soundex also enables us to match words across languages. Combining the 
+2 parameters we can find an approximate match for keywords
+- We combine the bounding boxes if the keywords(numbers in our case) are consecutive to enable the detection of
+continuous number sequences
 
 ## References
 - [Basics of ASR](http://www.cs.columbia.edu/~julia/courses/CS6998-2019/%5B09%5D%20Automatic%20Speech%20Recognition.pdf)

@@ -7,7 +7,7 @@
 ## About
 The goals of the this Project are as follows:
 - "Identify numeric keywords in continuous speech"
-- "Locate keywords in timeframes or in post-processed transcripts"<br>
+- "Locate keywords in timeframes or in post-processed transcripts"<br />
 Both these tasks are tackled in the following 2 methods.
 
 ## Methods
@@ -40,12 +40,12 @@ calculated using the loss function and greatest probability above a threshold is
 
 ### Post-Processing using Soundex
 
-**Data**
--first_point
+**Data**<br />
+-first_point<br />
 -second_point
 
-**Algorithm**
--first_point
+**Algorithm**<br />
+-first_point<br />
 -second_point
 
 ## References
